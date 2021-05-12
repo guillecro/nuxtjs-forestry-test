@@ -1,4 +1,39 @@
 ---
 label: Template Articulo
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+    max: 250
+    min: 3
+  label: Titulo
+  description: El titulo del articulo
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Descripcion
+  description: La bajada del articulo
+- name: date
+  type: datetime
+  description: La fecha del articulo
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+    export_format: ''
+  label: Fecha
+  default: '2021-05-12T20:44:20Z'
+- name: author
+  type: text
+  config:
+    required: true
+  label: Autor
+  description: El autor o autora del articulo
