@@ -1,6 +1,6 @@
 ---
 date: 2021-05-12T20:44:20Z
-category: []
+category: Entrevista
 tags:
 - Seleccion
 title: Pertenecer sigue siendo un privilegio
@@ -8,6 +8,7 @@ description: La endogamia rige por la transgresión del ingreso democrático
 author: AVIJ
 published: true
 highlight: true
+cover: "/img/articulos/untitled-4-01.png"
 
 ---
 **Los planteles del sistema judicial revelan una tendencia endogámica que persiste pese a que existe una ley desde 2013 que modifica el ingreso.**
