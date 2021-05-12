@@ -42,9 +42,11 @@ fields:
   default: []
   config:
     required: true
-    options: []
+    options:
+    - Entrevista
+    - Investigación
     source:
-      type: pages
+      type: simple
       section: articulos
       file: 
       path: 
