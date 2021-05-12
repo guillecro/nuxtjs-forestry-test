@@ -44,7 +44,7 @@ fields:
     required: true
     options: []
     source:
-      type: pages
+      type: simple
       section: articulos
       file: 
       path: 
