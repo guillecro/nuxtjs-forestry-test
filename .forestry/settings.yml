@@ -8,10 +8,10 @@ sections:
   path: content/articulos
   label: Articulos
   create: documents
+  match: "**/*"
 - type: document
   path: content/categorias
   label: Categorias
-  match: "**/*"
 - type: document
   path: homepage
   label: Home
