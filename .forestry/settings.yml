@@ -4,14 +4,13 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: content/categorias
-  label: Categorias
-  match: "**/*"
 - type: directory
   path: content/articulos
   label: Articulos
   create: documents
+- type: document
+  path: content/categorias
+  label: Categorias
   match: "**/*"
 - type: document
   path: homepage
