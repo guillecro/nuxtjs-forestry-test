@@ -37,3 +37,30 @@ fields:
     required: true
   label: Autor
   description: El autor o autora del articulo
+- name: category
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: articulos
+      file: 
+      path: 
+  label: Categoria
+  description: La categoria del articulo
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Tags del articulo
+- name: published
+  type: boolean
+  label: Publicar
+  description: Determine si se ve o no el articulo
+  default: false
+- name: highlight
+  type: boolean
+  label: Destacado
+  description: Si el articulo esta destacado o no
