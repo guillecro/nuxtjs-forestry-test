@@ -64,3 +64,5 @@ fields:
   type: boolean
   label: Destacado
   description: Si el articulo esta destacado o no
+pages:
+- content/articulos/pertenecer-sigue-siendo-un-privilegio.md
