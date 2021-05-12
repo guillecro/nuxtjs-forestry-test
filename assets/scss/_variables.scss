@@ -1,0 +1,52 @@
+@import "~bulma/sass/utilities/_all";
+// $primary : #4319b6;
+$primary : #467CF6;
+$body-size: 14px;
+// $secondary : #371575;
+$family-primary: 'Chivo', $family-sans-serif;
+$primary-invert: findColorInvert($primary);
+$magenta: #9346F6;
+$magenta-invert: findColorInvert($magenta);
+$magenta-dark: #3B1C62;
+$magenta-dark-invert: findColorInvert($magenta-dark);
+$primary-dark: #0E1931;
+$primary-dark-invert: findColorInvert($primary-dark);
+$secondary: #3157AC;
+$secondary-invert: findColorInvert($secondary);
+$secondary-dark: #3157AC;
+$secondary-dark-invert: findColorInvert($secondary-dark);
+$orange: #EC6961;
+$orange-invert: findColorInvert($orange);
+
+$colors: (
+    "white": ($white, $black),
+    "magenta": ($magenta, $magenta-invert),
+    "magenta-dark": ($magenta-dark, $magenta-dark-invert),
+    "secondary": ($secondary, $secondary-invert),
+    "secondary-dark": ($secondary-dark, $secondary-dark-invert),
+    "orange": ($orange, $orange-invert),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "primary-dark": ($primary-dark, $primary-dark-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+);
+
+$body-background-color: $grey-lightest;
+$text: $black;
+// Navbar Variables
+// https://bulma.io/documentation/components/navbar/
+
+$navbar-background-color: $grey-lightest;
+$navbar-box-shadow-size: 0 0 0 0;
+$navbar-height: 7.25rem;
+
+$footer-background-color: $secondary;
+$footer-padding: 2rem 1.5rem;
+$footer-color: #FFF;
+
+$carousel-indicator-color: $black;

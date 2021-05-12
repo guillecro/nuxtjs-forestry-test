@@ -1,0 +1,106 @@
+h1,h2,h3,h4,h5,h6,.title,.subtitle{
+  font-family: 'Raleway', $family-sans-serif;
+  color: #000000;
+}
+
+//==========================
+
+@mixin font-weight($weight) {
+  font-weight: $weight !important;
+}
+
+//==========================
+
+@for $i from 1 through 9 {
+  .is-#{100 * $i} {
+    @include font-weight(100 * $i)
+  }
+}
+
+.image.is-centered{
+  margin: 0 auto;
+}
+
+.has-shadow {
+  box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.has-text-shadow{
+   text-shadow: 0px 2px 2px #0e0e0e;
+}
+
+.is-raleway{
+  font-family: 'Raleway', $family-sans-serif
+}
+
+.is-chivo{
+  font-family: 'Chivo', $family-sans-serif;
+}
+
+.button{
+  border-radius: 0;
+  padding: 10px 25px;
+}
+
+html{
+  // scroll-behavior: smooth;
+}
+
+// =========================
+
+// .carousel .carousel-indicator .indicator-item .indicator-style.is-dots{
+//   height: 15px;
+//   width: 15px;
+// }
+// .carousel .carousel-indicator{
+//   padding-top: 0.9rem;
+// }
+
+.carousel .carousel-indicator .indicator-item .indicator-style {
+  border-color: transparent;
+}
+
+.slick-prev.custom-arrow-left::before{
+  font-size: 30px;
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f060";
+  color: $primary;
+}
+.slick-next.custom-arrow-right::before{
+  font-size: 30px;
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+  color: $primary;
+}
+.slick-prev{
+  left: -32px !important;
+}
+
+.carousel-arrow .icon.has-icons-left{
+  left: 0.5em;
+}
+.carousel-arrow .icon.has-icons-right {
+  right: 0.5rem;
+}
+
+.carousel-arrow .icon{
+  background: transparent;
+  border: none;
+  &:hover{
+    border: none;
+  }
+}
+
+.tag.is-special{
+  background-color: #EDF2FE;
+  color: #467CF6;
+  border-radius: 0;
+  // height: 28px;
+  // font-size: 13px;
+  height: auto;
+  font-size: 12px;
+  padding: 5px 0.70rem;
+  white-space: normal;
+}
+
+.line-height-150{
+  line-height: 1.5em;
+}
